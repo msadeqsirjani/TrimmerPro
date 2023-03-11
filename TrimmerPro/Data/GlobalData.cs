@@ -1,8 +1,8 @@
 namespace TrimmerPro.Data;
 
-public class GlobalData
+public static class GlobalData
 {
-    public static AppConfig? Config { get; set; }
+    public static AppConfig Config { get; private set; } = null!;
 
     public static void Init()
     {
