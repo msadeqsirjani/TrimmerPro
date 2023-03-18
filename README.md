@@ -1,7 +1,11 @@
-# (./TrimmerPro.Resources.trimmer-pro.ico) TrimmerPro - URL Shortener
+<p align="center">
+  <img src="./TrimmerPro/Resources/trimmer-pro.png" />
+</p>
+
+# TrimmerPro - URL Shortener 
 
 ## Introduction
-TrimmerPro is a URL shortener application developed using WPF, Prism, .NET Core 7 and MVVM design pattern. It helps users to shorten long URLs and make them easy to share.
+TrimmerPro is a URL shortener application developed using WPF, Prism, .NET 7 and MVVM design pattern. It helps users to shorten long URLs and make them easy to share.
 
 ## Features
 * Shorten long URLs to shorten unique URLs.
