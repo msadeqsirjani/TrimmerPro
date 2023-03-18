@@ -10,25 +10,32 @@
 
     <ItemGroup>
       <PackageReference Include="HandyControl" Version="3.4.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
       <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="Resources" />
-      <Folder Include="ViewModels" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="Resources\cloud.png" />
       <Resource Include="Resources\cloud.png" />
+      <None Remove="Resources\trimmer-pro.ico" />
+      <Resource Include="Resources\trimmer-pro.ico" />
     </ItemGroup>
 
     <ItemGroup>
-      <Page Update="Views\MainWindow.xaml">
+      <Page Update="Views\MainWindowView.xaml">
         <Generator>MSBuild:Compile</Generator>
         <XamlRuntime>Wpf</XamlRuntime>
         <SubType>Designer</SubType>
       </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="app-data.txt" />
+      <EmbeddedResource Include="app-data.txt" />
     </ItemGroup>
 
 </Project>
