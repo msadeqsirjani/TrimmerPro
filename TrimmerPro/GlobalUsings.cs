@@ -1,0 +1,34 @@
+// Global using directives
+
+global using System;
+global using System.Collections;
+global using System.Collections.Generic;
+global using System.Collections.ObjectModel;
+global using System.ComponentModel;
+global using System.Globalization;
+global using System.IO;
+global using System.Linq;
+global using System.Net;
+global using System.Net.Http;
+global using System.Net.Mime;
+global using System.Reflection;
+global using System.Text;
+global using System.Text.Json;
+global using System.Text.Json.Serialization;
+global using System.Threading.Tasks;
+global using System.Web;
+global using System.Windows;
+global using System.Windows.Controls;
+global using HandyControl.Controls;
+global using HandyControl.Data;
+global using Microsoft.Win32;
+global using Prism.Commands;
+global using Prism.Ioc;
+global using Prism.Mvvm;
+global using Prism.Regions;
+global using TrimmerPro.Data;
+global using TrimmerPro.Helper;
+global using TrimmerPro.Models;
+global using TrimmerPro.Views;
+global using MessageBox = HandyControl.Controls.MessageBox;
+global using Window = System.Windows.Window;
